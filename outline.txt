@@ -1,0 +1,95 @@
+Welcome to Sam's Startup Software Services
+
+Project proposal submition form
+
+Ssss is currently taking on new clients!
+
+Client Info
+===========
+Client name
+ [______________]
+Client type
+ - Company
+ - Non-profit organization
+ - Individual
+
+Client email
+ [______________]
+
+Client size
+ - tiny (1 - 10 employees)
+ - small (11 - 50 employees)
+ - mid-sized (51 - 200 employees)
+ - large (201 - 500 employees)
+ - very large (501 - 1000 employees)
+ - massive (1001+ employees)
+
+Project Info
+=============
+
+Project Requirements
+--------------------
+Project summary
+[________________]
+[________________]
+[________________]
+[________________]
+
+Project goals
+ - [ ] new features
+ - [ ] troubleshooting
+ - [ ] tech stack migration
+ - [ ] infrastructure migration
+
+Project componenets
+ - [ ] Front end web development
+ - [ ] Back end web development
+ - [ ] Infrastructure / DevOps
+ - [ ] Other [________________]
+
+Estimated budget for completion / first release [________________]
+
+How many users will this serve?
+ [_______________]
+
+Other requirements comments
+[________________]
+[________________]
+[________________]
+[________________]
+
+Project Timeline
+----------------
+Completion or first release deadline [_________________]
+
+Is this critically urgent?
+
+Estimated post-release maintenance timeline
+ - 13+ months
+ - 7 - 12 months
+ - 2 - 6 months
+ - 0 - 1 months
+
+Other timeline comments
+[________________]
+[________________]
+[________________]
+[________________]
+
+Other
+-----
+How did you hear about Ssss?
+ - Reccomendation from a colleague or friend
+ - Search engine
+ - I have already worked with Ssss
+
+What do you, as the form filler, think of the company acronym Ssss? (pick all that apply)
+ - [ ] quite professional
+ - [ ] it could be funny but for some reason it isn't
+ - [ ] simplistically dorky
+ - [ ] your services are great so no one really cares
+ - [ ] brilliant, exquisite, artistic, aesthetic
+ - [ ] thats above my pay grade
+ - [ ] Other [__________________]
+
+SUBMIT
