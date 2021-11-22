@@ -50,7 +50,7 @@ Project componenets
 Estimated budget for completion / first release [________________]
 
 How many users will this serve?
- [_______________]
+[________________]
 
 Other requirements comments
 [________________]
