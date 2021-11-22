@@ -1,0 +1,25 @@
+html {
+	--font-rosewood-color:  #6d0d0f;
+	--font-main-color: #4c4343;
+	--header-bg-color: #edecef;
+	--section-separator-color: #00d8f5;
+	--section-separator-transparency: 0.5;
+	--root-bg-color: #fafafa;
+	--input-bg-color: #ffffff;
+}
+
+html {
+	background-color: var(--root-bg-color);
+}
+
+h1 {
+	color: var(--font-rosewood-color);
+}
+
+label, span, h2, h3, h4, h5 {
+	color: var(--font-main-color);
+}
+
+input, textarea {
+	background-color: var(--input-bg-color);
+}
