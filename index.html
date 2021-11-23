@@ -5,124 +5,126 @@
 		<title>Ssss Survey Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/font.css">
 		<link rel="stylesheet" href="css/position.css">
 		<link rel="stylesheet" href="css/color.css">
 	</head>
 	<body>
-		<header>
-			<h1>Project Proposal</h1>
-			<h2>Sam's Startup Software Services</h2>
-			<p class="header_flair"><span>Thank you for your interest in Ssss!</span><span>We love taking on interesting projects</span></p>
-		</header>
-		<main>
-			<form>
-				<h3>Client info</h3>
-						<h5 for="client_name">Client Name
-							<div><input type="text" id="client_name"></div>
-						</h5>
-
-						<h5>Client Type
-							<div><label><input type="radio" id="type_0" name="client_type" value="0">For-profit Company</label></div>
-							<div><label><input type="radio" id="type_2" name="client_type" value="2">Non-profit Organization</label></div>
-						</h5>
-
-						<h5>Client Email
-							<div><input type="email" id="client_email"></div>
-						</h5>
-
-						<h5>Client Size
-							<div><label><input type="radio" id="size_0" name="client_size" value="0">Tiny (1 - 10 employees)</label></div>
-							<div><label><input type="radio" id="size_2" name="client_size" value="2">Small (11 - 50 employees)</label></div>
-							<div><label><input type="radio" id="size_4" name="client_size" value="4">Mid-sized (51 - 200 employees)</label></div>
-							<div><label><input type="radio" id="size_6" name="client_size" value="6">Large (201 - 500 employees)</label></div>
-							<div><label><input type="radio" id="size_8" name="client_size" value="8">Very large (501 - 1000 employees)</label></div>
-							<div><label><input type="radio" id="size_10" name="client_size" value="10">Massive (1001+ employees)</label></div>
-						</h5>
-
-				<h3>Project Info</h3>
-					<h4>Requirements</h4>
-						<h5 for="project_summary">Project Summary
-							<div><textarea></textarea></div>
-						</h5>
-
-
-						<h5>Project Goals
-							<div><input type="checkbox" id="project_goals_0"><label for="goals_0">New features</label></div>
-							<div><input type="checkbox" id="project_goals_2"><label for="goals_2">Troubleshooting</label></div>
-							<div><input type="checkbox" id="project_goals_4"><label for="goals_4">Tech stack migration</label></div>
-							<div><input type="checkbox" id="project_goals_6"><label for="goals_6">Infrastructure migration</label></div>
-						</h5>
-
-						<h5>Project Components
-							<div><label for="components_0"><input type="checkbox" id="project_components_0">Front end web development</label></div>
-							<div><label for="components_2"><input type="checkbox" id="project_components_2">Back end web development</label></div>
-							<div><label for="components_4"><input type="checkbox" id="project_components_4">Infrastructure / DevOps</label></div>
-							<div><label for="components_4"><input type="checkbox" id="project_components_4">Other <input type="text"></label></div>
-						</h5>
-
-						<h5 for="budget">Estimated budget for completion / first release
-							<div><span>$</span><input type="number" min="1000" step="1" id="budget"></div>
-						</h5>
-
-						<h5 for="num_users">How many users will this serve per month on first phase of releases?
-							<div><input type="number" id="num_users"></div>
-						</h5>
-
-						<h5 for="requirements_comments">Other comments on requirements
-							<div><input type="text" id="requirements_comments"></div>
-						</h5>
-				<h3>Product Timeline</h3>
-							<h5>Ideal completion / first release timeline
-								<div><label for="timeline_0"><input type="radio" id="timeline_0" name="project_timeline" value="0">A several days</label></div>
-								<div><label for="timeline_2"><input type="radio" id="timeline_2" name="project_timeline" value="2">A several weeks</label></div>
-								<div><label for="timeline_4"><input type="radio" id="timeline_4" name="project_timeline" value="4">A couple months</label></div>
-								<div><label for="timeline_6"><input type="radio" id="timeline_6" name="project_timeline" value="6">Several months</label></div>
-								<div><label for="timeline_8"><input type="radio" id="timeline_0" name="project_timeline" value="8">A year</label></div>
-								<div><label for="timeline_10"><input type="radio" id="timeline_10" name="project_timeline" value="10">Several years</label></div>
+		<div>
+			<header>
+				<h1>Project Proposal</h1>
+				<h2>Sam's Startup Software Services</h2>
+				<p class="header_flair"><span>Thank you for your interest in Ssss!</span><span>We love taking on interesting projects</span></p>
+			</header>
+			<main>
+				<form>
+					<h3>Client info</h3>
+							<h5 for="client_name">Client Name
+								<div><input type="text" id="client_name"></div>
 							</h5>
 
-							<h5 for="deadline">How critical is completion / first release?
-								<div><input type="radio" name="project_deadline" id="project_deadline_0"><label for="project_deadline_0">We absolutely need it done by a certain date</label></div>
-								<div><input type="radio" name="project_deadline" id="project_deadline_2"><label for="project_deadline_2">No hard deadline, but sooner is better</label></div>
-								<div><input type="radio" name="project_deadline" id="project_deadline_4"><label for="project_deadline_4">Nothing urgent</label></div>
+							<h5>Client Type
+								<div><label><input type="radio" id="type_0" name="client_type" value="0">For-profit Company</label></div>
+								<div><label><input type="radio" id="type_2" name="client_type" value="2">Non-profit Organization</label></div>
 							</h5>
 
-						<h5>Please list a hard deadline if applicable
-							<div><input type="date" id="deadline"></div>
-						</h5>
+							<h5>Client Email
+								<div><input type="email" id="client_email"></div>
+							</h5>
 
-						<h5>Estimated post-release maintenance timeline
-							<div><label for="postmaintenance_timeline_0"><input type="radio" id="postmaintenance_timeline_0" name="postmaintenance_timeline" value="0">A several days</label></div>
-							<div><label for="postmaintenance_timeline_2"><input type="radio" id="postmaintenance_timeline_2" name="postmaintenance_timeline" value="2">A several weeks</label></div>
-							<div><label for="postmaintenance_timeline_4"><input type="radio" id="postmaintenance_timeline_4" name="postmaintenance_timeline" value="4">A couple months</label></div>
-							<div><label for="postmaintenance_timeline_6"><input type="radio" id="postmaintenance_timeline_6" name="postmaintenance_timeline" value="6">Several months</label></div>
-						</h5>
+							<h5>Client Size
+								<div><label><input type="radio" id="size_0" name="client_size" value="0">Tiny (1 - 10 employees)</label></div>
+								<div><label><input type="radio" id="size_2" name="client_size" value="2">Small (11 - 50 employees)</label></div>
+								<div><label><input type="radio" id="size_4" name="client_size" value="4">Mid-sized (51 - 200 employees)</label></div>
+								<div><label><input type="radio" id="size_6" name="client_size" value="6">Large (201 - 500 employees)</label></div>
+								<div><label><input type="radio" id="size_8" name="client_size" value="8">Very large (501 - 1000 employees)</label></div>
+								<div><label><input type="radio" id="size_10" name="client_size" value="10">Massive (1001+ employees)</label></div>
+							</h5>
 
-						<h5 for="timeline_comments">Other comments on timeline
-							<div><textarea></textarea></div>
-						</h5>
-				<h3>Other</h3>
-						<h5>How did you hear about Ssss?
-							<div><label for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">Reccomendation from a colleague or friend</label></div>
-							<div><label for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">Search Engine</label></div>
-							<div><label for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">I / we have already worked with Ssss</label></div>
-						</h5>
+					<h3>Project Info</h3>
+						<h4>Requirements</h4>
+							<h5 for="project_summary">Project Summary
+								<div><textarea></textarea></div>
+							</h5>
 
-						<h5>What do you, as the individual form filler, make of the company acronym?
-							<div><label for="opinion_ssss_0"><input type="radio" id="opinion_ssss_0" name="opinion_ssss" value="0">professional</label></div>
-							<div><label for="opinion_ssss_2"><input type="radio" id="opinion_ssss_2" name="opinion_ssss" value="2">it could be funny, but for some reason it just isn't</label></div>
-							<div><label for="opinion_ssss_4"><input type="radio" id="opinion_ssss_4" name="opinion_ssss" value="4">simplistically dorky</label></div>
-							<div><label for="opinion_ssss_6"><input type="radio" id="opinion_ssss_6" name="opinion_ssss" value="6">brilliant, exquisite, artistic, aesthetic</label></div>
-							<div><label for="opinion_ssss_8"><input type="radio" id="opinion_ssss_8" name="opinion_ssss" value="8">your services are so great that none of us really cares</label></div>
-							<div><label for="opinion_ssss_10"><input type="radio" id="opinion_ssss_10" name="opinion_ssss" value="10">thats above my pay grade</label></div>
-							<div><label for="opinion_ssss_12"><input type="radio" id="opinion_ssss_12" name="opinion_ssss" value="12">I decline to comment</label></div>
-							<div><label for="opinion_ssss_14"><input type="radio" id="opinion_ssss_14" name="opinion_ssss" value="14">Ssssss...............</label></div>
-							<div><label for="opinion_ssss_16"><input type="radio" id="opinion_ssss_16" name="opinion_ssss" value="16">Other <input type="text"></label></div>
-						</h5>
-						<div><input type="submit"></div>
-			</form>
-		</main>
+
+							<h5>Project Goals
+								<div><input type="checkbox" id="project_goals_0"><label for="goals_0">New features</label></div>
+								<div><input type="checkbox" id="project_goals_2"><label for="goals_2">Troubleshooting</label></div>
+								<div><input type="checkbox" id="project_goals_4"><label for="goals_4">Tech stack migration</label></div>
+								<div><input type="checkbox" id="project_goals_6"><label for="goals_6">Infrastructure migration</label></div>
+							</h5>
+
+							<h5>Project Components
+								<div><label for="components_0"><input type="checkbox" id="project_components_0">Front end web development</label></div>
+								<div><label for="components_2"><input type="checkbox" id="project_components_2">Back end web development</label></div>
+								<div><label for="components_4"><input type="checkbox" id="project_components_4">Infrastructure / DevOps</label></div>
+								<div><label for="components_4"><input type="checkbox" id="project_components_4">Other <input type="text"></label></div>
+							</h5>
+
+							<h5 for="budget">Estimated budget for completion / first release
+								<div><span>$</span><input type="number" min="1000" step="1" id="budget"></div>
+							</h5>
+
+							<h5 for="num_users">How many users will this serve per month on first phase of releases?
+								<div><input type="number" id="num_users"></div>
+							</h5>
+
+							<h5 for="requirements_comments">Other comments on requirements
+								<div><input type="text" id="requirements_comments"></div>
+							</h5>
+					<h3>Product Timeline</h3>
+								<h5>Ideal completion / first release timeline
+									<div><label for="timeline_0"><input type="radio" id="timeline_0" name="project_timeline" value="0">A several days</label></div>
+									<div><label for="timeline_2"><input type="radio" id="timeline_2" name="project_timeline" value="2">A several weeks</label></div>
+									<div><label for="timeline_4"><input type="radio" id="timeline_4" name="project_timeline" value="4">A couple months</label></div>
+									<div><label for="timeline_6"><input type="radio" id="timeline_6" name="project_timeline" value="6">Several months</label></div>
+									<div><label for="timeline_8"><input type="radio" id="timeline_0" name="project_timeline" value="8">A year</label></div>
+									<div><label for="timeline_10"><input type="radio" id="timeline_10" name="project_timeline" value="10">Several years</label></div>
+								</h5>
+
+								<h5 for="deadline">How critical is completion / first release?
+									<div><input type="radio" name="project_deadline" id="project_deadline_0"><label for="project_deadline_0">We absolutely need it done by a certain date</label></div>
+									<div><input type="radio" name="project_deadline" id="project_deadline_2"><label for="project_deadline_2">No hard deadline, but sooner is better</label></div>
+									<div><input type="radio" name="project_deadline" id="project_deadline_4"><label for="project_deadline_4">Nothing urgent</label></div>
+								</h5>
+
+							<h5>Please list a hard deadline if applicable
+								<div><input type="date" id="deadline"></div>
+							</h5>
+
+							<h5>Estimated post-release maintenance timeline
+								<div><label for="postmaintenance_timeline_0"><input type="radio" id="postmaintenance_timeline_0" name="postmaintenance_timeline" value="0">A several days</label></div>
+								<div><label for="postmaintenance_timeline_2"><input type="radio" id="postmaintenance_timeline_2" name="postmaintenance_timeline" value="2">A several weeks</label></div>
+								<div><label for="postmaintenance_timeline_4"><input type="radio" id="postmaintenance_timeline_4" name="postmaintenance_timeline" value="4">A couple months</label></div>
+								<div><label for="postmaintenance_timeline_6"><input type="radio" id="postmaintenance_timeline_6" name="postmaintenance_timeline" value="6">Several months</label></div>
+							</h5>
+
+							<h5 for="timeline_comments">Other comments on timeline
+								<div><textarea></textarea></div>
+							</h5>
+					<h3>Other</h3>
+							<h5>How did you hear about Ssss?
+								<div><label for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">Reccomendation from a colleague or friend</label></div>
+								<div><label for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">Search Engine</label></div>
+								<div><label for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">I / we have already worked with Ssss</label></div>
+							</h5>
+
+							<h5>What do you, as the individual form filler, make of the company acronym?
+								<div><label for="opinion_ssss_0"><input type="radio" id="opinion_ssss_0" name="opinion_ssss" value="0">professional</label></div>
+								<div><label for="opinion_ssss_2"><input type="radio" id="opinion_ssss_2" name="opinion_ssss" value="2">it could be funny, but for some reason it just isn't</label></div>
+								<div><label for="opinion_ssss_4"><input type="radio" id="opinion_ssss_4" name="opinion_ssss" value="4">simplistically dorky</label></div>
+								<div><label for="opinion_ssss_6"><input type="radio" id="opinion_ssss_6" name="opinion_ssss" value="6">brilliant, exquisite, artistic, aesthetic</label></div>
+								<div><label for="opinion_ssss_8"><input type="radio" id="opinion_ssss_8" name="opinion_ssss" value="8">your services are so great that none of us really cares</label></div>
+								<div><label for="opinion_ssss_10"><input type="radio" id="opinion_ssss_10" name="opinion_ssss" value="10">thats above my pay grade</label></div>
+								<div><label for="opinion_ssss_12"><input type="radio" id="opinion_ssss_12" name="opinion_ssss" value="12">I decline to comment</label></div>
+								<div><label for="opinion_ssss_14"><input type="radio" id="opinion_ssss_14" name="opinion_ssss" value="14">Ssssss...............</label></div>
+								<div><label for="opinion_ssss_16"><input type="radio" id="opinion_ssss_16" name="opinion_ssss" value="16">Other <input type="text"></label></div>
+							</h5>
+							<div><input type="submit"></div>
+				</form>
+			</main>
+		</div>
 	</body>
 </html>
