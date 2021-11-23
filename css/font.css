@@ -2,13 +2,8 @@ span, h1, h2, h3, h4, h5 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-label {
+input, select, textarea, label {
 	font-family: 'Roboto', sans-serif;
-}
-
-span, label {
-	font-weight: 400;
-	font-size: 14pt;
 }
 
 h1 {
@@ -19,4 +14,29 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 20pt;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 20pt;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 20pt;
+}
+
+h5 {
+	font-weight: 600;
+	font-size: 18pt;
+}
+
+input, select, textarea, label {
+	font-weight: 400;
+	font-size: 18pt;
+}
+
+span, label {
+	font-weight: 400;
+	font-size: 14pt;
 }
