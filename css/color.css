@@ -1,26 +1,25 @@
 html {
-	--font-rosewood-color:  #6d0d0f;
-	--font-main-color: #4c4343;
-	--header-bg-color: #edecef;
-	--section-separator-color: #00d8f5;
+	--font-rosewood-rgb: 109, 6, 15;
+	--font-main-rgb: 76, 67, 67;
 	--section-separator-transparency: 0.5;
-	--root-bg-color: #fafafa;
-	--input-bg-color: #ffffff;
+	--root-bg-rgb: 250, 250, 250;
+	--input-bg-rfb: 255, 255, 255;
 }
 
 html {
-	background-color: var(--root-bg-color);
+	background-color: rgba(var(--root-bg-rgb), 1);
 }
 
 h1 {
-	color: var(--font-rosewood-color);
+	color: rgba(var(--font-rosewood-rgb), 1);
 }
 
 label, span, h2, h3, h4, h5 {
-	color: var(--font-main-color);
+	color: rgba(var(--font-main-rgb));
 }
 
 input, select, textarea {
-	background-color: var(--input-bg-color);
-	color: var(--font-rosewood-color);
+	color: rgba(var(--font-rosewood-rgb), 1.0);
+	border-color: rgba(var(--font-main-rgb), 0.7);
+	background-color: rgba(var(--input-bg-rgb), 1.0);
 }
