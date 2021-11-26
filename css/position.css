@@ -37,8 +37,8 @@ label.radio_item {
 	display: grid;
 	grid-template-columns: 1em auto;
 	place-content: left;
-	gap: 11px;
-	margin-left: 15px;
+	gap: 1rem;
+	margin-left: 0.75rem;
 }
 
 input[type="radio"] {
@@ -50,12 +50,12 @@ input[type="radio"] {
 	appearance: none;
 	padding: 0;
 	margin: 0;
-	margin-top: 6px;
+	margin-top: 0.27rem;
 	background-color: rgba(var(--root-bg-rgb));
 	font: inherit;
 	color: currentColor;
-	width: 22px;
-	height: 12px;
+	width: 1.5rem;
+	height: 0.725rem;
 	border: 1px solid currentColor;
 	border-radius: 3px;
 }
@@ -64,9 +64,9 @@ input[type="radio"]::before {
 	content: "";
 	margin: 0;
 	padding: 0;
-	margin-top: 0px;
-	width: 18px;
-	height: 8px;
+	/* make width & height pixel relative to input[type="radio"] */
+	width: calc(1.5em - 8px);
+	height: calc(0.725rem - 4px);
 	background-color: rgb(var(--font-rosewood-rgb));
 	border-radius: 2px;
 	transform: scale(0);
