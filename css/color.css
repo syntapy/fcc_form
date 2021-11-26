@@ -23,3 +23,7 @@ input, select, textarea {
 	border-color: rgba(var(--font-main-rgb), 0.7);
 	background-color: rgba(var(--input-bg-rgb), 1.0);
 }
+
+input[type="radio"]::before {
+	background-color: rgb(var(--font-rosewood-rgb));
+}

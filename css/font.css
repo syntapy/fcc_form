@@ -40,3 +40,8 @@ h5 span, h5 label {
 	font-weight: 400;
 	font-size: 0.7777777777777778em;
 }
+
+
+input[type="radio"] {
+	font: inherit;
+}
