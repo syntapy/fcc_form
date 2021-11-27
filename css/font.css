@@ -41,6 +41,10 @@ h5 span, h5 label {
 	font-size: 0.7777777777777778em;
 }
 
+h5 input, h5 textarea {
+	font-size: 0.75em;
+}
+
 
 input[type="radio"] {
 	font: inherit;
