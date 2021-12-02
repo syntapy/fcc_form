@@ -1,4 +1,4 @@
-span, h1, h2, h3, h4, h5, p {
+legend, label, span, h1, h2, h3, p {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -11,32 +11,32 @@ h1 {
 	font-size: 2.1666666666666665em;
 }
 
-h2 {
+p.company_name {
 	font-weight: 400;
 	font-size: 1.6666666666666665em;
 }
 
-h3 {
+h2 {
 	font-weight: 700;
 	font-size: 1.6666666666666665em;
 }
 
+h3 {
+	font-weight: 600;
+	font-size: 1em;
+}
+
 h4 {
 	font-weight: 600;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
-h5 {
+input, select, textarea, label, legend {
 	font-weight: 600;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
-input, select, textarea, label {
-	font-weight: 400;
-	font-size: 1em;
-}
-
-h5 span, h5 label {
+, div label {
 	font-weight: 400;
 	font-size: 0.7777777777777778em;
 }
@@ -44,7 +44,6 @@ h5 span, h5 label {
 h5 input, h5 textarea {
 	font-size: 0.75em;
 }
-
 
 input[type="radio"] {
 	font: inherit;
