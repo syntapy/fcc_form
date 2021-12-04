@@ -14,7 +14,7 @@ h1 {
 	color: rgba(var(--font-rosewood-rgb), 1);
 }
 
-label, span, h2, h3, h4, h5 {
+legend, label, span, h2, h3, h4, h5 {
 	color: rgba(var(--font-main-rgb));
 }
 
