@@ -8,11 +8,6 @@
 	display: block;
 }
 
-h1, h2, h3, h4, h5 {
-	padding: 0;
-	margin: 15pt 0 10pt 0;
-}
-
 body {
 	padding: 0;
 	margin: 0;
@@ -20,17 +15,39 @@ body {
 	justify-content: center;
 }
 
-body > div {
+body {
 	padding: 0;
 	margin: 1rem;
-	border: 2px solid brown;
+	border: 0px solid brown;
 	border-radius: 3px;
+}
+
+h1, h2, h3, fieldset, legend, label, ul {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, {
+	margin: 15pt 0 0 0;
+}
+
+form {
+	border: 0px solid brown;
+	border-radius: 3px;
+}
+
+.input_group {
+	margin-top: 0.5em;
 }
 
 input, textarea {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 3px;
+}
+
+label {
+	display: block;
 }
 
 label.radio_item {
@@ -93,4 +110,8 @@ textarea:focus {
 	box-sizing: content-box;
 	border-width: 2px;
 	outline: none;
+}
+
+fieldset {
+	border: none;
 }

@@ -1,9 +1,9 @@
 html {
 	--font-rosewood-rgb: 109, 6, 15;
-	--font-main-rgb: 76, 67, 67;
+	--font-main-rgb: 19, 16, 16;
 	--section-separator-transparency: 0.5;
-	--root-bg-rgb: 250, 250, 250;
-	--input-bg-rfb: 255, 255, 255;
+	--root-bg-rgb: 255, 250, 253;
+	--input-bg-rgb: 255, 255, 255;
 }
 
 html {
@@ -20,7 +20,7 @@ label, span, h2, h3, h4, h5 {
 
 input, select, textarea {
 	color: rgba(var(--font-rosewood-rgb), 1.0);
-	border-color: rgba(var(--font-main-rgb), 0.7);
+	border-color: rgba(var(--font-main-rgb), 1.0);
 	background-color: rgba(var(--input-bg-rgb), 1.0);
 }
 

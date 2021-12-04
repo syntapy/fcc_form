@@ -22,24 +22,26 @@
 					<section>
 						<h2>Client info</h2>
 
-						<div>
-							<label for="client_name">Client Name</label>
+						<div class="input_group">
+							<label class="group_label" for="client_name">Client Name</label>
 							<input type="text" id="client_name">
 						</div>
 
-						<fieldset>
-							<legend id="client_type_label">Client Type</legend>
+						<fieldset class="input_group">
+							<legend class="group_label" id="client_type_label">Client Type</legend>
 							<ul>
 								<label class="radio_item"><input type="radio" id="type_0" role="radio" name="client_type" value="0">For-profit Company</label>
 								<label class="radio_item"><input type="radio" id="type_2" role="radio" name="client_type" value="2">Non-profit Organization</label>
 							</ul>
 						</fieldset>
 
-						<label for="client_email">Client Email</label>
-						<input type="email" id="client_email">
+						<div class="input_group">
+							<label class="group_label" for="client_email">Client Email</label>
+							<input type="email" id="client_email">
+						</div>
 
-						<fieldset>
-							<legend>Client Size</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">Client Size</legend>
 							<ul>
 								<label class="radio_item"><input type="radio" id="size_0" name="client_size" value="0">Tiny (1 - 10 employees)</label>
 								<label class="radio_item"><input type="radio" id="size_2" name="client_size" value="2">Small (11 - 50 employees)</label>
@@ -55,21 +57,23 @@
 						<h2>Project Info</h2>
 						<h3>Requirements</h3>
 
-						<label for="project_summary">Project Summary</label>
-						<textarea id="project_summary"></textarea>
+						<div class="input_group">
+							<label class="group_label" for="project_summary">Project Summary</label>
+							<textarea id="project_summary"></textarea>
+						</div>
 
-						<fieldset>
-							<legend>Project Goals</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">Project Goals</legend>
 							<ul>
-								<label for="goals_0"><input type="checkbox" id="project_goals_0">New features</label>
-								<label for="goals_2"><input type="checkbox" id="project_goals_2">Troubleshooting</label>
-								<label for="goals_4"><input type="checkbox" id="project_goals_4">Tech stack migration</label>
-								<label for="goals_6"><input type="checkbox" id="project_goals_6">Infrastructure migration</label>
+								<input type="checkbox" id="project_goals_0"><label for="goals_0">New features</label>
+								<input type="checkbox" id="project_goals_2"><label for="goals_2">Troubleshooting</label>
+								<input type="checkbox" id="project_goals_4"><label for="goals_4">Tech stack migration</label>
+								<input type="checkbox" id="project_goals_6"><label for="goals_6">Infrastructure migration</label>
 							</ul>
 						</fieldset>
 
-						<fieldset>
-							<legend>Project Components</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">Project Components</legend>
 							<ul>
 								<label for="components_0"><input type="checkbox" id="project_components_0">Front end web development</label>
 								<label for="components_2"><input type="checkbox" id="project_components_2">Back end web development</label>
@@ -78,18 +82,18 @@
 							</ul>
 						</fieldset>
 
-						<div>
-							<label for="budget">Estimated budget for completion / first release</label>
+						<div class="input_group">
+							<label class="group_label" for="budget">Estimated budget for completion / first release</label>
 							<span>$</span><input type="number" min="1000" step="1" id="budget">
 						</div>
 
-						<div>
-							<label for="num_users">How many users will this serve per month on first phase of releases?</label>
+						<div class="input_group">
+							<label class="group_label" for="num_users">Estimated users served per month</label>
 							<input type="number" id="num_users">
 						</div>
 
-						<div>
-							<label for="requirements_comments">Other comments on requirements</label>
+						<div class="input_group">
+							<label class="group_label" for="requirements_comments">Other comments on requirements</label>
 							<input type="text" id="requirements_comments">
 						</div>
 					</section>
@@ -97,8 +101,8 @@
 					<section>
 						<h2>Product Timeline</h2>
 
-						<fieldset>
-							<legend>Ideal completion / first release timeline</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">Ideal completion / first release timeline</legend>
 							<ul>
 								<label class="radio_item" for="timeline_0"><input type="radio" id="timeline_0" name="project_timeline" value="0">A several days</label>
 								<label class="radio_item" for="timeline_2"><input type="radio" id="timeline_2" name="project_timeline" value="2">A several weeks</label>
@@ -109,8 +113,8 @@
 							</ul>
 						</fieldset>
 
-						<fieldset>
-							<legend>How critical is completion / first release?</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">How critical is completion / first release?</legend>
 							<ul>
 								<label class="radio_item" for="project_deadline_0"><input type="radio" name="project_deadline" id="project_deadline_0">We absolutely need it done by a certain date</label>
 								<label class="radio_item" for="project_deadline_2"><input type="radio" name="project_deadline" id="project_deadline_2">No hard deadline, but sooner is better</label>
@@ -118,13 +122,13 @@
 							</ul>
 						</fieldset>
 
-						<div>
+						<div class="input_group">
 							<label>Please list a hard deadline if applicable</label>
 							<input type="date" id="deadline">
 						</div>
 
-						<fieldset>
-							<legend>Estimated post-release maintenance timeline</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">Estimated post-release maintenance timeline</legend>
 							<div>
 								<label class="radio_item" for="postmaintenance_timeline_0"><input type="radio" id="postmaintenance_timeline_0" name="postmaintenance_timeline" value="0">A several days</label>
 								<label class="radio_item" for="postmaintenance_timeline_2"><input type="radio" id="postmaintenance_timeline_2" name="postmaintenance_timeline" value="2">A several weeks</label>
@@ -133,8 +137,8 @@
 							</div>
 						</fieldset>
 
-						<div>
-							<label for="timeline_comments">Other comments on timeline</label>
+						<div class="input_group">
+							<label class="group_label" for="timeline_comments">Other comments on timeline</label>
 							<textarea></textarea>
 						</div>
 					</section>
@@ -142,8 +146,8 @@
 					<section>
 						<h2>Other</h2>
 
-						<fieldset>
-							<legend>How did you hear about Ssss?</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">How did you hear about Ssss?</legend>
 							<ul>
 								<label class="radio_item" for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">Reccomendation from a colleague or friend</label>
 								<label class="radio_item" for="how_you_heard_0"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0">Search Engine</label>
@@ -151,8 +155,8 @@
 							</ul>
 						</fieldset>
 
-						<fieldset>
-							<legend>What do you, as the individual form filler, make of the company acronym?</legend>
+						<fieldset class="input_group">
+							<legend class="group_label">What do you, as the individual form filler, make of the company acronym?</legend>
 							<ul>
 								<label class="radio_item" for="opinion_ssss_0"><input type="radio" id="opinion_ssss_0" name="opinion_ssss" value="0">professional</label>
 								<label class="radio_item" for="opinion_ssss_2"><input type="radio" id="opinion_ssss_2" name="opinion_ssss" value="2">it could be funny, but for some reason it just isn't</label>
