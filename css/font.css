@@ -1,3 +1,14 @@
+html {
+	--title-font-size: 2.1666666666666665em;
+	--section-label-font-size: 1.6666666666666665em;
+	--subsection-label-font-size: 1.4em;
+	--input-label-font-size: 1.2em;
+	--input-text-font-size: 1.0em;
+	--bold: 700;
+	--medium-bold: 600;
+	--normal: 400;
+}
+
 legend, div > label, span, h1, h2, h3, p {
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal
@@ -9,33 +20,33 @@ input, select, textarea, ul > label {
 }
 
 h1 {
-	font-weight: 700;
-	font-size: 2.1666666666666665em;
+	font-weight: var(--bold);
+	font-size: var(--title-font-size);
 }
 
 .company_name {
-	font-weight: 400;
-	font-size: 1.6666666666666665em;
+	font-weight: var(--normal);
+	font-size: var(--section-label-font-size);
 }
 
 h2 {
-	font-weight: 700;
-	font-size: 1.6666666666666665em;
+	font-weight: var(--bold);
+	font-size: var(--section-label-font-size);
 }
 
 h3 {
-	font-weight: 600;
-	font-size: 1.4em;
+	font-weight: var(--medium-bold);
+	font-size: var(--subsection-label-font-size);
 }
 
 div > label, fieldset > legend {
-	font-weight: 600;
-	font-size: 1.2em;
+	font-weight: var(--medium-bold);
+	font-size: var(--input-label-font-size);
 }
 
 input, select, textarea, ul label, legend {
-	font-weight: 400;
-	font-size: 1.0em;
+	font-weight: var(--normal);
+	font-size: var(--input-label-font-size);
 }
 
 /*div label {
@@ -44,7 +55,7 @@ input, select, textarea, ul label, legend {
 }*/
 
 input, textarea {
-	font-size: 1.0em;
+	font-size: var(--input-text-font-size);
 }
 
 input[type="radio"] {
