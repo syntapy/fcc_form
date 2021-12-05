@@ -76,6 +76,7 @@ input[type="radio"] {
 	padding: 0;
 	margin: 0;
 	margin-top: 0.27rem;
+	border-radius: 6px;
 	width: var(--radio-width);
 	height: var(--radio-height);
 }
@@ -89,14 +90,14 @@ input[type="radio"]::before {
 	 * to input[type="radio"] */
 	width: var(--radio-width-inner);
 	height: var(--radio-height-inner);
-	border-radius: 2px;
+	border-radius: 4px;
 	transform: scale(0);
 	transition: 15ms transform linear;
 }
 
 input[type="radio"]:checked::before {
 	transform: scale(1);
-	border-radius: 2px;
+	border-radius: 4px;
 }
 
 input[type="text"],
