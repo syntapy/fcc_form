@@ -1,9 +1,9 @@
 html {
 	--font-rosewood-rgb: 109, 6, 15;
-	--font-main-rgb: 19, 16, 16;
+	--font-main-rgb: 0, 0, 0;
 	--section-separator-transparency: 0.5;
-	--root-bg-rgb: 255, 250, 253;
-	--input-bg-rgb: 255, 255, 255;
+	--root-bg-rgb: 250, 240, 255;
+	--input-bg-rgb: 250, 250, 250;
 }
 
 html {
