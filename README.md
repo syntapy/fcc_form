@@ -12,5 +12,6 @@ Survey page done using CSS as a FreeCodeCamp project
 		- May need length rounding in SASS to fix this
 - [ ] checkbox style
 - [ ] turqoise bar after header
+- [ ] size of 'other' textboxes
 - [ ] header bg
 - [ ] set up applitools tests
