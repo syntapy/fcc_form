@@ -4,6 +4,7 @@ html {
 	--section-separator-transparency: 0.5;
 	--root-bg-rgb: 250, 250, 250;
 	--input-bg-rgb: 250, 250, 250;
+	--section-border-rgb: 13, 40, 109;
 }
 
 html {
@@ -12,6 +13,10 @@ html {
 
 h1 {
 	color: rgba(var(--font-rosewood-rgb), 1);
+}
+
+h2 {
+	border-color: rgb(var(--section-border-rgb));
 }
 
 legend, label, span, h2, h3, h4, h5 {

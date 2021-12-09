@@ -11,7 +11,7 @@ Survey page done using CSS as a FreeCodeCamp project
 	- [ ] Fix rounding issues at non-integer zoom factors
 		- May need length rounding in SASS to fix this
 - [X] checkbox style
-- [ ] turqoise bar after header
+- [X] colored bar after header
 - [ ] size of 'other' textboxes
 - [ ] header bg
 - [ ] set up applitools tests
