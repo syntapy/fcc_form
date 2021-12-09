@@ -24,6 +24,7 @@ input, select, textarea {
 	background-color: rgba(var(--input-bg-rgb), 1.0);
 }
 
+input[type="checkbox"]::before,
 input[type="radio"]::before {
 	background-color: rgb(var(--font-rosewood-rgb));
 }

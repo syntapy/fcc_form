@@ -1,11 +1,3 @@
-html {
-	--radio-gap: 4px;
-	--radio-width: calc(var(--input-label-font-size) - 0.1em);
-	--radio-height: calc(var(--input-label-font-size) - 0.575em);
-	--radio-width-inner: calc(var(--radio-width) - var(--radio-gap));
-	--radio-height-inner: calc(var(--radio-height) - var(--radio-gap));
-}
-
 *,
 *::before,
 *::after {
