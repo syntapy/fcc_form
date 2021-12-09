@@ -1,6 +1,6 @@
 html {
 	--radio-gap: 4px;
-	--radio-width: calc(var(--input-label-font-size) - 0.1em);
+	--radio-width: calc(var(--input-label-font-size) - 0.05em);
 	--radio-height: calc(var(--input-label-font-size) - 0.575em);
 	--radio-width-inner: calc(var(--radio-width) - var(--radio-gap));
 	--radio-height-inner: calc(var(--radio-height) - var(--radio-gap));
@@ -20,6 +20,8 @@ html {
 	grid-column: 2;
 	grid-row: 1;
 }
+
+/* Radio Buttons */
 
 input[type="radio"] {
 	-webkit-appearance: none;
@@ -42,20 +44,24 @@ input[type="radio"]::before {
 	content: "";
 	margin: 0;
 	padding: 0;
+	position: relative;
 
 	/* make width & height pixel relative 
 	 * to input[type="radio"] */
 	width: var(--radio-width-inner);
 	height: var(--radio-height-inner);
-	border-radius: 4px;
+	border-radius: 3px;
 	transform: scale(0);
 	transition: 15ms transform linear;
 }
 
 input[type="radio"]:checked::before {
 	transform: scale(1);
-	border-radius: 4px;
+	position: relative;
+	border-radius: 3px;
 }
+
+/* Checkboxes */
 
 input[type="checkbox"] {
 	-webkit-appearance: none;
