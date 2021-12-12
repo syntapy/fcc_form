@@ -14,7 +14,7 @@ legend, div > label, span, h1, h2, h3, p {
 	font-style: normal
 }
 
-input, select, textarea, ul > label {
+input, button, select, textarea, ul > label {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal
 }
@@ -61,4 +61,8 @@ input, textarea {
 
 input[type="radio"] {
 	font: inherit;
+}
+
+button[type="submit"] {
+	font-size: 1.5rem;
 }

@@ -33,3 +33,18 @@ input[type="checkbox"]::before,
 input[type="radio"]::before {
 	background-color: rgb(var(--font-rosewood-rgb));
 }
+
+button[type="submit"] {
+	background-color: rgba(var(--section-border-rgb), 1.0);
+	border-color: rgba(var(--font-rosewood-rgb), 0.1);
+	box-shadow: 1px 1px 1px rgba(var(--font-rosewood-rgb), 0.60);
+	color: rgb(var(--font-rosewood-rgb));
+	color: rgb(var(--section-border-rgb));
+	color: rgba(var(--root-bg-rgb));
+}
+
+button[type="submit"]:hover {
+	background-color: rgba(var(--section-border-rgb), 0.98);
+	border-color: rgba(var(--font-rosewood-rgb), 0.1);
+	box-shadow: 2px 2px 1px rgba(var(--font-rosewood-rgb), 0.40);
+}
