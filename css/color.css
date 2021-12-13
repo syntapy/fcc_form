@@ -23,10 +23,23 @@ legend, label, span, h2, h3, h4, h5 {
 	color: rgba(var(--font-main-rgb));
 }
 
-input, select, textarea {
+input,
+textarea {
 	color: rgba(var(--font-rosewood-rgb), 1.0);
-	border-color: rgba(var(--font-main-rgb), 1.0);
-	background-color: rgba(var(--input-bg-rgb), 1.0);
+	border-color: rgba(var(--font-main-rgb), 0.9);
+	background-color: rgba(var(--input-bg-rgb), 0.9);
+}
+
+input:hover,
+textarea:hover {
+	border-color: rgba(var(--section-border-rgb), 0.75);
+	background-color: rgba(var(--input-bg-rgb), 0.65);
+}
+
+input:focus, 
+textarea:focus {
+	border-color: rgba(var(--section-border-rgb), 1.0);
+	background-color: rgba(var(--input-bg-rgb), 0);
 }
 
 input[type="checkbox"]::before,
@@ -38,7 +51,6 @@ button[type="submit"] {
 	color: rgb(var(--font-rosewood-rgb));
 	color: rgb(var(--section-border-rgb));
 	color: rgba(var(--root-bg-rgb));
-	transition: background-color 0.1s, border-color 0.2s, box-shadow 0.2s;
 	background-color: rgba(var(--section-border-rgb), 1.0);
 	border-color: rgba(var(--font-rosewood-rgb), 0.1);
 	box-shadow: 1px 1px 1px rgba(var(--font-main-rgb), 0.60);

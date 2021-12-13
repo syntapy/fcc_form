@@ -13,6 +13,7 @@ Survey page done using CSS as a FreeCodeCamp project
 - [X] checkbox style
 - [X] colored bar after header
 - [X] submit button
+- [X] transitions
 - [ ] size of 'other' textboxes
 - [ ] header bg
 - [ ] set up applitools tests

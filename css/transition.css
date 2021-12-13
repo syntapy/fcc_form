@@ -1,0 +1,16 @@
+input, textarea {
+	transition: border-color 2.2s, background-color 2.2s;
+}
+
+input:hover, textarea:hover {
+	transition: border-color 0.2s, background-color 0.2s;
+}
+
+input:focus, textarea:focus {
+	transition: border-color 1.2s, background-color 1.2s;
+}
+
+button[type="submit"] {
+	transition: background-color 0.1s, border-color 0.2s, box-shadow 0.2s;
+}
+
