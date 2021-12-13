@@ -15,6 +15,6 @@ Survey page done using CSS as a FreeCodeCamp project
 - [X] submit button
 - [X] transitions
 - [X] position of currency symbol
-- [ ] size of 'other' textboxes
+- [x] size / position of 'other' textboxes
 - [ ] header bg
 - [ ] set up applitools tests
