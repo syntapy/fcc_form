@@ -14,6 +14,7 @@ Survey page done using CSS as a FreeCodeCamp project
 - [X] colored bar after header
 - [X] submit button
 - [X] transitions
+- [X] position of currency symbol
 - [ ] size of 'other' textboxes
 - [ ] header bg
 - [ ] set up applitools tests

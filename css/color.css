@@ -61,3 +61,6 @@ button[type="submit"]:hover {
 	border-color: rgba(var(--font-rosewood-rgb), 0.1);
 	box-shadow: 2px 2px 1px rgba(var(--font-main-rgb), 0.40);
 }
+.currency > span {
+	color: rgb(var(--font-rosewood-rgb));
+}

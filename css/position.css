@@ -44,6 +44,17 @@ fieldset {
 
 .input_group {
 	margin: 1.0rem 0 0.25rem 0;
+	width: 100%;
+}
+
+.currency {
+	position: relative;
+}
+
+.currency > span {
+	position: absolute;
+	top: 0.35rem;
+	left: -0.8rem;
 }
 
 input, textarea {
@@ -67,12 +78,6 @@ textarea {
 	padding: 0.5rem 0.75rem 0.25rem 0.75rem;
 	width: 100%;
 }
-
-/*input:hover,
-textarea:hover {
-	border-width: 2px;
-	margin: -1px;
-}*/
 
 input[type="text"]:focus,
 input[type="number"]:focus,
