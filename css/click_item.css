@@ -1,7 +1,7 @@
 html {
 	--radio-gap: 4px;
 	--radio-width: calc(var(--input-label-font-size) - 0.05em);
-	--radio-height: calc(var(--input-label-font-size) - 0.505em);
+	--radio-height: calc(var(--input-label-font-size) - 0.500em);
 	--radio-width-inner: calc(var(--radio-width) - var(--radio-gap));
 	--radio-height-inner: calc(var(--radio-height) - var(--radio-gap));
 	--check-side: calc(calc(var(--radio-height) + var(--radio-width))/2);
