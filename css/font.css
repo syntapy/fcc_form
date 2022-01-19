@@ -56,3 +56,8 @@ input[type="radio"] {
 button[type="submit"] {
 	font-size: 1.5rem;
 }
+
+* {
+	/* https://simonhearne.com/2021/layout-shifts-webfonts/ */
+	font-display: optional;
+}

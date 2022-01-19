@@ -20,5 +20,6 @@ Todo
 - [X] transitions
 - [X] position of currency symbol
 - [x] size / position of 'other' textboxes
+- [ ] fix glitching on initial load
 - [ ] header bg
 - [ ] set up applitools tests
