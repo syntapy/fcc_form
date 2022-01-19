@@ -1,8 +1,12 @@
-#Intro
+Intro
+=====
 
 Survey page done using CSS as a FreeCodeCamp project
 
-#Todo
+View on [Github Pages](https://syntapy.github.io/fcc_form/)
+
+Todo
+====
 - [X] text input borders
 - [X] [Units best practices](https://gist.github.com/basham/2175a16ab7c60ce8e001)
 - [X] text alignment in inputs
