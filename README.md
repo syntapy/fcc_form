@@ -1,9 +1,9 @@
 Intro
 =====
 
-![form_screenshot](https://user-images.githubusercontent.com/7295000/200660580-a9c65403-79e9-491a-923a-b76d683da59f.png)
-
 Survey page done using CSS as a FreeCodeCamp project
+
+![form_screenshot](https://user-images.githubusercontent.com/7295000/200660580-a9c65403-79e9-491a-923a-b76d683da59f.png)
 
 View on [Github Pages](https://syntapy.github.io/fcc_form/)
 
