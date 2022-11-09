@@ -193,4 +193,39 @@
 			</main>
 		</div>
 	</body>
+	<script>
+		function handleRadioCheckbox(e, formValues) {
+			if (e.checked) {
+				console.log(e.name, ": ", e.value)
+			}
+		}
+
+		function handleTextInput(e, formValues) {
+			if (e.value) {
+				console.log(e.id, ": ", e.value)
+			}
+		}
+
+		function getFormValues(formId) {
+			form=document.getElementById(formId);
+			var formValues = {};
+			for (e of form.elements) {
+				if (e.tagName === "TEXTAREA") {
+					handleTextInput(e, formValues)
+				} else if (e.type == "text") {
+					handleTextInput(e, formValues)
+				} else if (e.type === "radio") {
+					handleRadioCheckbox(e, formValues)
+				} else if (e.type === "checkbox") {
+					handleRadioCheckbox(e, formValues)
+				} else if (e.type === "number") {
+					handleTextInput(e, formValues)
+				} else if (e.type === "date") {
+					handleTextInput(e, formValues)
+				}
+			}
+		}
+
+		getFormValues('form001');
+	</script>
 </html>
