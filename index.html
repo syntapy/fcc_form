@@ -37,7 +37,7 @@
 				<p class="header_flair"><span>Thank you for your interest in Ssss!</span><span>We love taking on interesting projects</span></p>
 			</header>
 			<main>
-				<form>
+				<form id="form001">
 					<section>
 						<h2>Client info</h2>
 
@@ -46,11 +46,11 @@
 							<input type="text" id="client_name">
 						</div>
 
-						<fieldset class="input_group">
+						<fieldset class="input_group" id="client_type">
 							<legend class="group_label" id="client_type_label">Client Type</legend>
 							<ul>
-								<div class="click_item"><input type="radio" id="type_0" role="radio" name="client_type" value="0"><label>For-profit Company</label></div>
-								<div class="click_item"><input type="radio" id="type_2" role="radio" name="client_type" value="2"><label>Non-profit Organization</label></div>
+								<div class="click_item"><input type="radio" id="type_profit" role="radio" name="client_type" value="profit"><label for"type_profit">For-profit Company</label></div>
+								<div class="click_item"><input type="radio" id="type_nonprofit" role="radio" name="client_type" value="nonprofit"><label for"type_nonprofit">Non-profit Organization</label></div>
 							</ul>
 						</fieldset>
 
@@ -59,14 +59,14 @@
 							<input type="email" id="client_email">
 						</div>
 
-						<fieldset class="input_group">
+						<fieldset class="input_group" id="client_size">
 							<legend class="group_label">Client Size</legend>
 							<ul>
-								<div class="click_item"><input type="radio" id="size_0" name="client_size" value="0"><label>Tiny (1 - 10 employees)</label></div>
-								<div class="click_item"><input type="radio" id="size_2" name="client_size" value="2"><label>Small (11 - 50 employees)</label></div>
-								<div class="click_item"><input type="radio" id="size_4" name="client_size" value="4"><label>Mid-sized (51 - 200 employees)</label></div>
-								<div class="click_item"><input type="radio" id="size_6" name="client_size" value="6"><label>Large (201 - 500 employees)</label></div>
-								<div class="click_item"><input type="radio" id="size_8" name="client_size" value="8"><label>Very large (501+ employees)</label></div>
+								<div class="click_item"><input type="radio" id="size_tiny" name="client_size" value="tiny"><label for="size_tiny">Tiny (1 - 10 employees)</label></div>
+								<div class="click_item"><input type="radio" id="size_small" name="client_size" value="small"><label for="size_small">Small (11 - 50 employees)</label></div>
+								<div class="click_item"><input type="radio" id="size_mid" name="client_size" value="mid"><label for="size_mid">Mid-sized (51 - 200 employees)</label></div>
+								<div class="click_item"><input type="radio" id="size_large" name="client_size" value="large"><label for="size_large">Large (201 - 500 employees)</label></div>
+								<div class="click_item"><input type="radio" id="size_huge" name="client_size" value="huge"><label for="size_huge">Very large (501+ employees)</label></div>
 							</ul>
 						</fieldset>
 					</section>
@@ -79,23 +79,23 @@
 							<textarea id="project_summary"></textarea>
 						</div>
 
-						<fieldset class="input_group">
+						<fieldset class="input_group" id="project_goals">
 							<legend class="group_label">Project Goals</legend>
 							<ul>
-								<div class="click_item"><input type="checkbox" id="project_goals_0"><label for="goals_0">New features</label></div>
-								<div class="click_item"><input type="checkbox" id="project_goals_2"><label for="goals_2">Troubleshooting</label></div>
-								<div class="click_item"><input type="checkbox" id="project_goals_4"><label for="goals_4">Tech stack migration</label></div>
-								<div class="click_item"><input type="checkbox" id="project_goals_6"><label for="goals_6">Infrastructure migration</label></div>
+								<div class="click_item"><input type="checkbox" name="project_goals" id="goals_features" value="features"><label for="goals_features">New features</label></div>
+								<div class="click_item"><input type="checkbox" name="project_goals" id="goals_troubleshoot" value="troubleshoot"><label for="goals_troubleshoot">Troubleshooting</label></div>
+								<div class="click_item"><input type="checkbox" name="project_goals" id="goals_app_migrate" value="app_migrate"><label for="goals_app_migrate">Tech stack migration</label></div>
+								<div class="click_item"><input type="checkbox" name="project_goals" id="goals_infra_migrate" value="infra_migrate"><label for="goals_infra_migrate">Infrastructure migration</label></div>
 							</ul>
 						</fieldset>
 
-						<fieldset class="input_group">
+						<fieldset class="input_group" id="project_components">
 							<legend class="group_label">Project Components</legend>
 							<ul>
-								<div class="click_item"><input type="checkbox" id="project_components_0"><label for="components_0">Front end web development</label></div>
-								<div class="click_item"><input type="checkbox" id="project_components_2"><label for="components_2">Back end web development</label></div>
-								<div class="click_item"><input type="checkbox" id="project_components_4"><label for="components_4">Infrastructure / DevOps</label></div>
-								<div class="click_item other"><input type="checkbox" id="project_components_6"><label for="components_6">Other <input type="text"></label></div>
+								<div class="click_item"><input type="checkbox" name="project_components" id="component_frontend" value="frontend"><label for="component_frontend">Front end web development</label></div>
+								<div class="click_item"><input type="checkbox" name="project_components" id="component_backend" value="backend"><label for="component_backend">Back end web development</label></div>
+								<div class="click_item"><input type="checkbox" name="project_components" id="component_infra" value="infra"><label for="component_infra">Infrastructure / DevOps</label></div>
+								<div class="click_item other"><input type="checkbox" iname="project_components" id="component_other" value="other"><label for="component_other">Other <input type="text"></label></div>
 							</ul>
 						</fieldset>
 
@@ -118,24 +118,23 @@
 					<section>
 						<h2>Product Timeline</h2>
 
-						<fieldset class="input_group">
+						<fieldset class="input_group" id="project_timeline">
 							<legend class="group_label">Ideal completion / first release timeline</legend>
 							<ul>
-								<div class="click_item"><input type="radio" id="timeline_0" name="project_timeline" value="0"><label for="timeline_0">A several days</label></div>
-								<div class="click_item"><input type="radio" id="timeline_2" name="project_timeline" value="2"><label for="timeline_2">A several weeks</label></div>
-								<div class="click_item"><input type="radio" id="timeline_4" name="project_timeline" value="4"><label for="timeline_4">A couple months</label></div>
-								<div class="click_item"><input type="radio" id="timeline_6" name="project_timeline" value="6"><label for="timeline_6">Several months</label></div>
-								<div class="click_item"><input type="radio" id="timeline_0" name="project_timeline" value="8"><label for="timeline_8">A year</label></div>
-								<div class="click_item"><input type="radio" id="timeline_10" name="project_timeline" value="10"><label for="timeline_10">Several years</label></div>
+								<div class="click_item"><input type="radio" name="project_timeline" id="timeline_days" value="days"><label for="timeline_days">Days</label></div>
+								<div class="click_item"><input type="radio" name="project_timeline" id="timeline_weeks" value="weeks"><label for="timeline_weeks">Weeks</label></div>
+								<div class="click_item"><input type="radio" name="project_timeline" id="timeline_months" value="months"><label for="timeline_months">Months</label></div>
+								<div class="click_item"><input type="radio" name="project_timeline" id="timeline_year" value="one_year"><label for="timeline_year">year</label></div>
+								<div class="click_item"><input type="radio" name="project_timeline" id="timeline_several_years" value="several_years"><label for="timeline_several_years">Several years</label></div>
 							</ul>
 						</fieldset>
 
 						<fieldset class="input_group">
 							<legend class="group_label">Urgency</legend>
 							<ul>
-								<div class="click_item"><input type="radio" name="project_deadline" id="project_deadline_0"><label for="project_deadline_0">Hard deadline</label></div>
-								<div class="click_item"><input type="radio" name="project_deadline" id="project_deadline_2"><label for="project_deadline_2">Soft deadline</label></div>
-								<div class="click_item"><input type="radio" name="project_deadline" id="project_deadline_4"><label for="project_deadline_4">No rush</label></div>
+								<div class="click_item"><input type="radio" name="project_deadline" id="deadline_hard" value="hard"><label for="deadline_hard">Hard deadline</label></div>
+								<div class="click_item"><input type="radio" name="project_deadline" id="deadline_soft" value="soft"><label for="deadline_soft">Soft deadline</label></div>
+								<div class="click_item"><input type="radio" name="project_deadline" id="deadline_none" value="none"><label for="deadline_none">None</label></div>
 							</ul>
 						</fieldset>
 
@@ -147,10 +146,10 @@
 						<fieldset class="input_group">
 							<legend class="group_label">Estimated post-release maintenance timeline</legend>
 							<ul>
-								<div class="click_item"><input type="radio" id="postmaintenance_timeline_0" name="postmaintenance_timeline" value="0"><label for="postmaintenance_timeline_0">A several days</label></div>
-								<div class="click_item"><input type="radio" id="postmaintenance_timeline_2" name="postmaintenance_timeline" value="2"><label for="postmaintenance_timeline_2">A several weeks</label></div>
-								<div class="click_item"><input type="radio" id="postmaintenance_timeline_4" name="postmaintenance_timeline" value="4"><label for="postmaintenance_timeline_4">A couple months</label></div>
-								<div class="click_item"><input type="radio" id="postmaintenance_timeline_6" name="postmaintenance_timeline" value="6"><label for="postmaintenance_timeline_6">Several months</label></div>
+								<div class="click_item"><input type="radio" name="postmaintenance_timeline" id="maintenance_timeline_days" value="days"><label for="maintenance_timeline_days">A several days</label></div>
+								<div class="click_item"><input type="radio" name="postmaintenance_timeline" id="maintenance_timeline_weeks" value="weeks"><label for="maintenance_timeline_weeks">A several weeks</label></div>
+								<div class="click_item"><input type="radio" name="postmaintenance_timeline" id="maintenance_timeline_months" value="months"><label for="maintenance_timeline_months">Months</label></div>
+								<div class="click_item"><input type="radio" name="postmaintenance_timeline" id="maintenance_timeline_year" value="years"><label for="maintenance_timeline_years">Years</label></div>
 							</ul>
 						</fieldset>
 
@@ -166,22 +165,22 @@
 						<fieldset class="input_group">
 							<legend class="group_label">How did you hear about Ssss?</legend>
 							<ul>
-								<div class="click_item"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0"><label for="how_you_heard_0">From a colleague</label></div>
-								<div class="click_item"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0"><label for="how_you_heard_0">Search Engine</label></div>
-								<div class="click_item"><input type="radio" id="how_you_heard_0" name="how_you_heard" value="0"><label for="how_you_heard_0">Past work with Ssss</label></div>
+								<div class="click_item"><input type="radio" name="how_you_heard" id="how_hear_colleague" value="colleague"><label for="how_hear_colleague">From a colleague</label></div>
+								<div class="click_item"><input type="radio" name="how_you_heard" id="how_hear_search" value="search"><label for="how_hear_search">Search Engine</label></div>
+								<div class="click_item"><input type="radio" name="how_you_heard" id="how_hear_past" value="past"><label for="how_hear_past">Past work with Ssss</label></div>
 							</ul>
 						</fieldset>
 
 						<fieldset class="input_group">
 							<legend class="group_label">What do you, as the individual form filler, make of the company acronym?</legend>
 							<ul>
-								<div class="click_item"><input type="radio" id="opinion_ssss_0" name="opinion_ssss" value="0"><label for="opinion_ssss_0">Professional</label></div>
-								<div class="click_item"><input type="radio" id="opinion_ssss_2" name="opinion_ssss" value="2"><label for="opinion_ssss_2">Just not funny</label></div>
-								<div class="click_item"><input type="radio" id="opinion_ssss_4" name="opinion_ssss" value="4"><label for="opinion_ssss_4">Simplistically dorky</label></div>
-								<div class="click_item"><input type="radio" id="opinion_ssss_6" name="opinion_ssss" value="6"><label for="opinion_ssss_6">Brilliant, artistic, aesthetic</label></div>
-								<div class="click_item"><input type="radio" id="opinion_ssss_8" name="opinion_ssss" value="8"><label for="opinion_ssss_8">Well your services are great...</label></div>
-								<div class="click_item"><input type="radio" id="opinion_ssss_14" name="opinion_ssss" value="14"><label for="opinion_ssss_10">Sssss.......</label></div>
-								<div class="click_item other"><input type="radio" id="opinion_ssss_16" name="opinion_ssss" value="16"><label for="opinion_ssss_12">Other <input type="text"></label></div>
+								<div class="click_item"><input type="radio" name="opinion" id="opinion_professional" value="professional"><label for="opinion_professional">Professional</label></div>
+								<div class="click_item"><input type="radio" name="opinion" id="opinion_not_funny" value="not_funny"><label for="opinion_not_funny">Just not funny</label></div>
+								<div class="click_item"><input type="radio" name="opinion" id="opinion_dorky" value="dorky"><label for="opinion_dorky">Simplistically dorky</label></div>
+								<div class="click_item"><input type="radio" name="opinion" id="opinion_baa" value="baa"><label for="opinion_baa">Brilliant, artistic, aesthetic</label></div>
+								<div class="click_item"><input type="radio" name="opinion" id="opinion_uhh" value="uhh"><label for="opinion_uhh">Well your services are great...</label></div>
+								<div class="click_item"><input type="radio" name="opinion" id="opinion_ssss" value="ssss"><label for="opinion_ssss">Sssss.......</label></div>
+								<div class="click_item other"><input type="radio" name="opinion" id="opinion_other" value="other"><label for="opinion_other">Other <input type="text"></label></div>
 							</ul>
 						</fieldset>
 					</section>
