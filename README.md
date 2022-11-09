@@ -11,6 +11,7 @@ View on [Github Pages](https://syntapy.github.io/fcc_form/)
 
 Todo
 ====
+- [ ] Fix font size on mobile
 - [X] text input borders
 - [X] [Units best practices](https://gist.github.com/basham/2175a16ab7c60ce8e001)
 - [X] text alignment in inputs
